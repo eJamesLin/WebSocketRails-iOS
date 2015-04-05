@@ -25,6 +25,7 @@
 @property (nonatomic, strong) id connectionId;
 
 - (id)initWithUrl:(NSURL *)url;
+- (id)initWithUrlRequest:(NSURLRequest *)request;
 
 - (void)dispatch:(WebSocketRailsEvent *)event;
 - (void)newMessage:(NSArray *)data;
