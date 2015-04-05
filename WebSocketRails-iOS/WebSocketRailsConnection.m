@@ -51,6 +51,11 @@
 	return self;
 }
 
+//cj added
+- (void)delegateRemove
+{
+	_webSocket.delegate = nil;
+}
 
 - (void)trigger:(WebSocketRailsEvent *)event
 {

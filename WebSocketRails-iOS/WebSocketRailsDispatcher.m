@@ -51,6 +51,11 @@
 	return self;
 }
 
+- (void)delegateRemove
+{
+	[_connection delegateRemove];
+}
+
 - (void)newMessage:(NSArray *)data
 {
 	for (id socket_message in data)

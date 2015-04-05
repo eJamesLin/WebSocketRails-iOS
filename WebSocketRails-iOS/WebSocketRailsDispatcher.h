@@ -38,4 +38,6 @@
 - (void)connect;
 - (void)disconnect;
 
+- (void)delegateRemove;
+
 @end
